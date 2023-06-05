@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>iTunes pretraga</title>
+</head>
+<body>
+<header>
+  <input type="text" id="search-input" placeholder="iTunes pretraga" autocomplete="off">
+</header>
+<div class="app">
+  <div id="loader" class="spinner"></div>
+  <table id="results-table">
+    <thead>
+    <tr>
+      <th>Naslov pjesme</th>
+      <th>Umjetnik</th>
+    </tr>
+    </thead>
+    <tbody id="results-list"></tbody>
+  </table>
+  <p id="message"></p>
+</div>
+</body>
+</html>
